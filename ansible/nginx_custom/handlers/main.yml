@@ -1,0 +1,15 @@
+---
+# handlers file for nginx_custom
+- name: nginx systemd
+  systemd:
+    name: nginx
+    enabled: yes
+    state: started
+  listen: "Nginx Start"
+
+- name: Nginx Reloader
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+    enabled: yes
+  listen: "Nginx Reloader" 
