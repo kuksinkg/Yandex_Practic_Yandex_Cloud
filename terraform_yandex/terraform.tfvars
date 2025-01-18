@@ -1,4 +1,4 @@
-yc_token     = "y0__wgBEMSGpggYwd0TILHf9_sRJ-Ypmi8x0B3nga96LVIjAEhlZ2s"
+yc_token     = "y0__**************************"
 yc_cloud_id  = "b1g5e931nllikoujct55"
 yc_folder_id = "b1g1ku0cagnepape39hf"
 
