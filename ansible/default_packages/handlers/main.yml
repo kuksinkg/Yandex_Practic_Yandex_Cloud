@@ -1,8 +1,0 @@
----
-# handlers file for default_packages
-- name: nginx systemd
-  systemd:
-    name: nginx
-    enabled: yes
-    state: started
-  listen: "Nginx Start"
